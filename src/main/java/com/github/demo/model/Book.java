@@ -11,6 +11,8 @@ public class Book {
 
     private String cover;
 
+    private String feedback;
+    
     public Book() {
 
     }
@@ -41,6 +43,15 @@ public class Book {
     public void setAuthor(String author) {
         this.author = author;
     }
+    
+    public String getFeedback(){
+        return feedback;
+    }
+   
+    public void setFeedbacks(String feedback){
+        
+        this.feedback=feedback;
+    }
 
     public String getDetails() {
         return author + " " + title;
@@ -53,4 +64,5 @@ public class Book {
     public void setCover(String cover) {
         this.cover = cover;
     }
+    
 }
