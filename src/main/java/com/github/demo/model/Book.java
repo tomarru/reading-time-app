@@ -48,9 +48,8 @@ public class Book {
         return feedback;
     }
    
-    public void setFeedbacks(String feedback){
-        
-        this.feedback=feedback;
+    public void setFeedback(String feedback){
+        this.feedback = feedback;
     }
 
     public String getDetails() {
